@@ -15,6 +15,8 @@ class Mendeleydesktop < Formula
     sha256 "0274aa2e7f915f62c607486591560b9a2aed3f4cf56ad226386a411f10369f1d"
   end
 
+  depends_on "qt" => :recommended
+
   bottle :unneeded
 
   def install
